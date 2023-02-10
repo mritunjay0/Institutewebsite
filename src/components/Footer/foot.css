@@ -1,0 +1,38 @@
+.container1{
+    background-color: black;
+    color: antiquewhite;
+    padding: 30px;
+}
+
+.row{
+    width: 100%;
+}
+
+li a{
+    color: rgb(159, 166, 172);
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+ul{
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 12px;
+}
+
+li, a{
+    color: rgb(159, 166, 172);
+    list-style-type: none;
+}
+.social{
+    margin-top: 25px;
+}
+
+.social a{
+    padding: 5px;
+    width: fit-content;
+    color: antiquewhite;
+}
+

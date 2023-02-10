@@ -1,6 +1,9 @@
 .navbar-titles{
   font-weight: 600 !important;
   font-size: 16px !important;
-  color: black !important;
+  color: rgb(0, 0, 0) !important;
   margin-left: 4px !important;
+}
+.navbar-titles:hover, a:hover{
+  color: rgb(113, 113, 113) !important;
 }
