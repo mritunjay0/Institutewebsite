@@ -11,7 +11,6 @@ import c4 from '../../Assets/LHTC.jpeg'
 const About = () => {
   return (
     <>
-    <NavBar/>
     <div classname = "Carousel">
         <Carousel>
           <Carousel.Item>

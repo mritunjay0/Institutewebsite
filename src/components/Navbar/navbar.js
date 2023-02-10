@@ -26,9 +26,10 @@ const NavbarHeader = () => {
                             alt="React Bootstrap logo"
                         />
                     </Navbar.Brand>
-                    <Navbar.Brand href="#home" style={{
+                    <Navbar.Brand onClick={() => {navigate("/")}} style={{
                         fontSize: "24px",
-                        fontWeight:"600"
+                        fontWeight: "600",
+                        cursor:"pointer"
                     }}>PDPM IIITDM Jabalpur</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 </div>

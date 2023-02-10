@@ -7,7 +7,7 @@ const LandingPage = () => {
 
   const navigate = useNavigate()
   return (
-    <div style={{margin:"8%"}}>
+    <div style={{marginLeft:"8.2rem",marginRight:"8.2rem"}}>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <img src={banner_inst} alt="institute banner" />
       </div>

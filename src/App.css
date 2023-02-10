@@ -7,3 +7,22 @@
 .navbar-titles:hover, a:hover{
   color: rgb(113, 113, 113) !important;
 }
+.heading{
+  font-family: 'General Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 32px;
+margin-top: 1.5rem;
+}
+
+.heading-para{
+width: 65%;
+margin-top:2rem;
+font-family: 'General Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #1C201E;
+}
