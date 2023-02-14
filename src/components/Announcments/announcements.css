@@ -1,0 +1,12 @@
+.announcement {
+    margin-bottom: 50px;
+}
+.announcement > h2 {
+    font-family: 'General Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}

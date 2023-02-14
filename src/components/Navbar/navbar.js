@@ -74,7 +74,7 @@ const NavbarHeader = () => {
                                 </NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link className="navbar-titles">Academic Calendar</Nav.Link>
-                            <Nav.Link className="navbar-titles"><CgProfile size={20}/>Login</Nav.Link>
+                            
                             <Nav.Link className="navbar-titles"><AiOutlineSearch size={20}/></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

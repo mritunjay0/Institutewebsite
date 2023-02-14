@@ -1,15 +1,20 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import banner_inst from '../../Assets/banner_inst.png'
+import Research from '../../research_updates/research'
+import Announce from '../Announcments/announcments'
 import Foot from '../Footer/foot'
+import News from '../newsandevents/news'
+
 
 const LandingPage = () => {
 
   const navigate = useNavigate()
   return (
+    <div> 
     <div style={{margin:"8%"}}>
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <img src={banner_inst} alt="institute banner" />
+        <img src={banner_inst} alt="institute banner"/>
       </div>
       <div className='heading'>
         About the Institute
@@ -27,7 +32,11 @@ const LandingPage = () => {
       }} onClick = {() => {navigate("/about")}}>
         Read more
       </div>
-      <Foot/>
+      <News/>
+      <Announce/>
+      <Research/>
+    </div>
+    <Foot/>
     </div>
   )
 }
